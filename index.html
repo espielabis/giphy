@@ -2,16 +2,16 @@
 <html>
 <head>
     <title>Animal Gifs</title>
-  <script type="text/css" src="../giphy/style.css"></script>
+  <link rel="stylesheet" href="../giphy/style.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 </head>
 <body>
-  <div class="jumbotron">
+  <div class="jumbotron  jumbotron-fluid text-center">
     <!-- Header  -->
     <h1>Animal GIPHY Search</h1>
 
 </div>
-  <div class="container">
+  <div class="container teal">
 
   <div class="row">
     <!--  Submission Form  -->
@@ -19,17 +19,21 @@
                <form id="gif-form" role="form">
                    <br>
                    <div class="form-group">
-                       <label for="animal-input">Add animal</label>
+                       <label for="inputlg" style="font-family: 'Limelight', cursive;" ><h2>Add animal</h2></label>     <input type="text"  id="animal-input">
                        <br>
-                       <input type="text" id="animal-input">
+                       <input id="addGif" type="submit" value="Add animal" class="btn btn-primary">
+                         <input id="removeGif" type="submit" value="Reset" class="btn btn-primary">
+                         <div class="form-group">
+
+
+                         </div>
                    </div>
-                   <br>
-                   <input id="addGif" type="submit" value="Add animal" class="btn btn-primary">
-                     <input id="removeGif" type="submit" value="Reset" class="btn btn-primary">
-               </form>
+
+                   </form>
           </div>
 
-
+<br>
+<br><br>
   </div>
     <div class="row">
     <div class="col-sm">
